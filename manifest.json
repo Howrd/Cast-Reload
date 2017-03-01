@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Cast Reload",
+  "version": "1.0",
+  "description": "Reload current tab while avoiding cached copies of the page.",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_128.png",
+    "default_popup": "popup.html"
+  }
+}
