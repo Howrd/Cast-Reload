@@ -14,9 +14,7 @@ function doReload (tabs) {
 }
 
 function onComplete () {
-	window.setTimeout(function () {
-		window.close();
-	}, 1000);
+	window.setTimeout(window.close, 1000);
 }
 
 chrome.tabs.query(QUERY_INFO, doReload);
